@@ -1,0 +1,323 @@
+body{
+    margin: 0px;
+    background-color: pink;
+    color: white;
+}
+.navBar{
+    background-color: #0d0d0d;
+    color: white;
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.musicGround{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+#musicBoxOut1{
+    width: 10%;
+    background-color: rgba(150, 65, 65, 0.329);
+    /* background-color: white; */
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    flex-shrink: 0px;
+}
+/* .InBox{
+    border: 2px solid saddlebrown;
+    border: 2px solid red;
+    align-self: center;
+} */
+.barAnchor, li{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-self: center;
+    margin-top: 12%;
+    color: white;
+    text-decoration: none;
+}
+.barAnchor:hover {
+    color: red;
+    padding: 3%;
+    border-radius: 50%;
+    font-size: 150%;
+}
+/* .barAnchor:hover {
+    color: red;
+    padding: 3%;
+    border: 8px solid gold;
+    border-radius: 50%;
+    font-size: 150%;
+} */
+#Inbox1{
+    margin-top: 8%;
+    height: 10%;
+
+}
+#Inbox2{
+    margin-top: 8%;
+    height: 10%;
+    align-self: center;
+
+}
+#Inbox3{
+    margin-top: 8%;
+    height: 40%;
+
+}
+#Inbox4{
+    position: relative;
+    height: 20%;
+    bottom: -8%;
+}
+#div4a{
+    color: grey;
+    position: absolute;
+    font-size: 30px;
+    translate: 0% 156%;
+    text-decoration: none;
+}
+@media (min-width: 470px) and (max-width: 700px) {
+    #Inbox1{
+        position: relative;
+        width: 99%;
+        height: 20%;
+        font-size: 100%;
+    }   
+    #Inbox2{
+        position: relative;
+        width: 99%;
+        height: 20%;
+        font-size: 100%;
+    }   
+    #Inbox3{
+        position: relative;
+        width: 99%;
+        height: 20%;
+        font-size: 100%;
+    }   
+    #Inbox4{
+        position: relative;
+        width: 99%;
+        height: 20%;
+        bottom: -10%;
+        font-size: 100%;
+    }   
+}
+@media (max-width: 470px) {
+    #Inbox1{
+        position: relative;
+        width: 99%;
+        height: 20%;
+        font-size: 65%;
+    }
+    #Inbox2{
+        position: relative;
+        width: 99%;
+        height: 20%;
+        font-size: 65%;
+    }
+    #Inbox3{
+        position: relative;
+        width: 99%;
+        height: 20%;
+        font-size: 65%;
+    }
+    #Inbox4{
+        position: relative;
+        width: 99%;
+        height: 20%;
+        bottom: -12%;
+        font-size: 65%;
+    }
+}
+#musicBoxOut2{
+    width: 90%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    align-content: center;
+    background-image: url("../displayImages/back9.jpg");
+    background-size: cover;
+}
+.musicPlay{
+    background-color: aqua;
+    border: 4px solid whitesmoke;
+    height: 70px;
+    width: 70px;
+    overflow-x: hidden;
+    border-radius: 50%;
+}
+@media (min-width: 800px) and (max-width: 1200px) {
+    .musicPlay{
+        height: 50px;
+        width: 50px;
+    }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+    .musicPlay{
+        height: 40px;
+        width: 40px;
+    }
+}
+@media (min-width: 400px) and (max-width: 600px) {
+    .musicPlay{
+        height: 30px;
+        width: 30px;
+    }
+}
+@media (max-width: 600px) {
+    .musicPlay{
+        height: 40px;
+        width: 40px;
+    }
+}
+.musicPlay:hover{
+    border: 4px solid red;
+    cursor: pointer;
+}
+#musicPlay1{
+    position: relative;
+    background-color: red;
+    translate: 24% 172%;
+    background-image: url('../musicImages/teriyaad.jpg');
+    background-size: cover;
+}
+#musicPlay2{
+    background-color: gray;
+    translate: -52% 71%;
+    background-image: url('../musicImages/little\ sis.jpeg');
+    background-size: cover;
+}
+#musicPlay3{
+    background-color: aqua;
+    translate: -77% 4%;
+    background-image: url('../musicImages/money money.jpeg');
+    background-size: cover;
+}
+#musicPlay4{
+    background-color: aquamarine;
+    translate: -84% -35%;
+    background-image: url('../musicImages/pyaar\ hota\ kai\ baar\ h.jpeg');
+    background-size: cover;
+}
+#musicPlay5{
+    background-color: indianred;
+    translate: -86% -19%;
+    background-image: url('../musicImages/satyanash.jpeg');
+    background-size: cover;
+}
+#musicPlay6{
+    background-color: indianred;
+    translate: -108% 46%;
+    background-image: url('../musicImages/rave_in_grave.jpeg');
+    background-size: cover;
+}
+#musicPlay7{
+    background-color: indianred;
+    translate: -172% 147%;
+    background-image: url('../musicImages/rave_in_grave_aron.jpeg');
+    background-size: cover;
+}
+#musicPlay8{
+    background-color: indianred;
+    translate: -286% 251%;
+    background-image: url('../musicImages/samjho_na.jpg');
+    background-size: cover;
+}
+#musicPlay9{
+    background-color: indianred;
+    translate: -458% 323%;
+    background-image: url('../musicImages/badmash_ncr.jpeg');
+    background-size: cover;
+}
+#musicPlay10{
+    background-color: indianred;
+    translate: -651% 363%;
+    background-image: url('../musicImages/thaimassage_aronchupa.jpeg');
+    background-size: cover;
+}
+#musicPlay11{
+    background-color: indianred;
+    translate: 10% 30%;
+    background-image: url('../musicImages/de_moshkila.jpeg');
+    background-size: cover;
+}
+#musicPlay12{
+    background-color: indianred;
+    translate: 10% 30%;
+    background-image: url('../musicImages/horn_blow.jpeg');
+    background-size: cover;
+}
+#musicPlay13{
+    background-color: indianred;
+    translate: 10% 30%;
+    background-image: url('../musicImages/teriyaad.jpg');
+    background-size: cover;
+}
+#musicPlay14{
+    background-color: indianred;
+    translate: 10% 30%;
+    background-image: url('../musicImages/bekrar_karke_hame.jpeg');
+    background-size: cover;
+}
+#musicPlay15{
+    background-color: indianred;
+    translate: -1255% 334%;
+    background-image: url('../musicImages/horn_blow.jpeg');
+    background-size: cover;
+}
+#musicPlay16{
+    background-color: indianred;
+    translate: -1438% 268%;
+    background-image: url('../musicImages/albatraoz.jpeg');
+    background-size: cover;
+}
+#musicPlay17{
+    background-color: indianred;
+    translate: 10% 30%;
+
+}
+#musicPlay18{
+    background-color: indianred;
+    translate: 10% 30%;
+
+}
+#musicPlay19{
+    background-color: indianred;
+    translate: 10% 30%;
+
+}
+#musicPlay20{
+    background-color: indianred;
+    background-image: url('../displayImages/pause.jpg');
+    background-size: cover;
+    translate: -1371% 163%;
+
+}
+#musicBoxOut3{
+    border: 2px solid green;
+}
+.footerOuterLayer{
+    background-color: black;
+    color: rgb(233, 192, 158);
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* justify-content: space-between; */
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footerAnchor{
+    color: rgb(255, 0, 0);
+}
